@@ -70,7 +70,7 @@ var context = chess.getContext('2d');
 
 // 背景水印
 var logo = new Image();
-logo.src = "lu.png";
+logo.src = "lu.jpg";
 logo.globalAlpha = 0.1;
 logo.onload = function(){
 	context.drawImage(logo, 0, 0, 600, 600);     
